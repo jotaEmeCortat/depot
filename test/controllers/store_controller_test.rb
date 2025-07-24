@@ -9,6 +9,4 @@ class StoreControllerTest < ActionDispatch::IntegrationTest
     assert_select 'h2', 'Programming Ruby 1.9'
     assert_select 'div', /\$[,\d]+\.\d\d/
   end
-
-
 end
